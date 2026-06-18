@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  // "idf.toolsPathWin": "E:/LenovoSoftstore/Install/ESP32/esp-idf/Espressif/tools",
+  "idf.portWin": "COM5",
+  "idf.espIdfPathWin": "E:/LenovoSoftstore/Install/ESP32/esp-idf/Espressif/frameworks/esp-idf-v5.5.2/",
+  "idf.currentSetup": "E:/LenovoSoftstore/Install/ESP32/esp-idf/Espressif/frameworks/esp-idf-v5.5.2/",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "E:\\LenovoSoftstore\\Install\\ESP32\\esp-idf\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=f:\\esp32\\1.code\\0_Template\\Project\\build"
+  ],
+  "idf.flashType": "UART"
+}
