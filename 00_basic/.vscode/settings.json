@@ -4,7 +4,7 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.portWin": "detect",
+  "idf.portWin": "COM5",
   "idf.currentSetup": "E:/LenovoSoftstore/Install/ESP32/esp-idf/Espressif/frameworks/esp-idf-v5.5.2/",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
@@ -14,5 +14,6 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=f:\\esp32\\1.code\\0_Template\\Project\\build"
-  ]
+  ],
+  "idf.flashType": "UART"
 }
